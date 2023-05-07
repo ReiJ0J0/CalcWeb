@@ -72,13 +72,13 @@ margin-bottom: .5cm;
 
 .container1.card1{
     width: 330px;
-    height: 260px;
+    height: 400px;
     padding: 60px 30px; 
     margin: 20px;
     margin-bottom: .5cm;
     background: transparent;
-    box-shadow: 0.6em 0.6em 1.2em #6f4e3d,
-                -0.5em -0.5em 1em #ebd5c9;
+    box-shadow: 0.6em 0.6em 1.2em #58cfec,
+                -0.5em -0.5em 1em #e2dedc;
     border-radius: 20px;
 
 }

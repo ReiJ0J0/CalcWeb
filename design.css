@@ -3,7 +3,16 @@
       padding: 0px;
       box-sizing: border-box;
   }
-
+body{
+    background-image: url('back.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
 .gilbert h1 {
 text-align: center;
 margin-bottom: .7cm;
@@ -26,13 +35,13 @@ font-size: 1cm;
 .container .card
 {
    width: 330px;
-   height: 260px;
+   height: 310px;
    padding: 60px 30px; 
    margin: 20px;
    margin-bottom: .5cm;
    background: transparent;
-   box-shadow: 0.6em 0.6em 1.2em #6f4e3d,
-               -0.5em -0.5em 1em #ebd5c9;
+   box-shadow: 0.6em 0.6em 1.2em #6baeec,
+               -0.5em -0.5em 1em #ddedf7;
    border-radius: 20px;
 }
 .container .card .content
@@ -48,13 +57,13 @@ text-align: center;
 .container .card .content .sn h3{
     text-align: center;
     }
-.row .equation {
-margin-bottom: .5cm;
+ .equation {
+margin-bottom: 1cm;
 
 
 }
-.row .equationa {
-    margin-bottom: .5cm;
+.equationa {
+    margin-bottom: 3cm;
 
     }
 
@@ -82,3 +91,4 @@ margin-bottom: .5cm;
     border-radius: 20px;
 
 }
+

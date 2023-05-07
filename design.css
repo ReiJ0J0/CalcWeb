@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+  }
+
+.gilbert h1 {
+text-align: center;
+margin-bottom: .7cm;
+font-weight: 300;
+
+}
+.lhex h2 {
+text-align: center;
+font-size: 1cm;
+
+}
+.container
+{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.container .card
+{
+   width: 330px;
+   height: 260px;
+   padding: 60px 30px;
+   margin: 20px;
+   margin-bottom: .5cm;
+   background: transparent;
+   box-shadow: 0.6em 0.6em 1.2em #6f4e3d,
+               -0.5em -0.5em 1em #ebd5c9;
+   border-radius: 20px;
+}
+.container .card .content
+{
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   flex-direction: column;
+}
+.container .card .content .fn h3{
+text-align: center;
+}
+.container .card .content .sn h3{
+    text-align: center;
+    }
+.row .equation {
+margin-bottom: .5cm;
+
+}
+.row .equationa {
+    margin-bottom: .5cm;
+
+    }
+
+.row .equationb {
+        margin-bottom: .5cm;
+     
+        }
+ .parent {
+     border: 1px solid black;
+     margin: 1rem;
+     padding: 2rem 2rem;
+     text-align: center;
+ }
+
+ .child {
+     display: inline-block;
+     border: 1px solid red;
+     padding: 1rem 1rem;
+     vertical-align: middle;
+ }

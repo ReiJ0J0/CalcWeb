@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="design.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="gilbert">
+      <h1>Group 4</h1>
+    </div>
+    <div class="lhex">
+      <h2 style="margin-bottom: .5cm;">Vector, Parametric,</h2>
+      <h2 style="margin-bottom: 1cm;"> Symmeteric Calculator</h2>
+    </div>
+    <div class="container">
+      <div class="card">
+        <div class="content">
+          <div class="fn">
+            <h3>Enter first vector <input type="text" id='num1' required style="margin-bottom: .2cm;"></h3>
+          </div>
+          <div class="sn">
+            <h3>Enter second vector <input type="text" id='num2' required style="margin-bottom: .3cm;"></h3>
+          </div>
+          <div class='buttons'>
+            <button id='calculate' style="font-size: .5cm; margin-right: .6cm;">Calculate</button>
+            <button id='restart'><i class='bx bx-x-circle' style="font-size: .5cm;"></i></button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+  </header>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="content">
+          <div class="imgBx">
+
+            <div class="equation" id="first">
+              <h1>Vector Equation</h1>
+              <p>Equation: r = b + tc</p>
+              <p>c = b - a</p>
+              <p id='forC'></p>
+              <p id='forR'></p>
+              <p id='firstStep'></p>
+              <p id='secondStep'></p>
+              <p id='vector'></p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="card">
+        <div class="content">
+          <div class="imgBx">
+            <div class="equation" id="second">
+              <h1>Parametric Equation</h1>
+              <p id='parametric'>Answer Display Here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="equation" id="second">
+      <h1>Parametric Equation</h1>
+      <p id='parametric'>Answer Display Here</p>
+    </div>
+
+
+    <div class="equation" id="third">
+      <h1>Symmeteric Equation</h1>
+      <p id='symmetric'> Answer Display Here</p>
+      <p id='divided'></p>
+    </div>
+
+    </div>
+    </div>
+    </div>
+  </body>
+  <script src="logic.js"></script>
+</body>
+
+</html>
